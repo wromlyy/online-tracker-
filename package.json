@@ -1,0 +1,17 @@
+{
+  "name": "tg-monitor-bot",
+  "version": "1.0.0",
+  "private": true,
+  "main": "whatsapp_notifier.js",
+  "scripts": {
+    "start": "node whatsapp_notifier.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.0",
+    "express": "^4.21.0",
+    "qrcode": "^1.5.4"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
